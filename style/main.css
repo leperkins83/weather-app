@@ -1,0 +1,24 @@
+body {
+  background-color: navy;
+  color: white;
+  font-family: 'Kumar One', cursive;
+}
+
+.data-container,
+.zip {
+  text-align: center;
+}
+
+.temp{
+  display: inline-block;
+}
+
+.changeTemp {
+  cursor: pointer;
+  color: #0F0;
+}
+
+#icon {
+  height: 60px;
+  width: 70px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+
+
+
+<div class="data-container">
+  <h2 class="city" id="city"></h2>
+  <form id="form">
+    <p>Zip</p>
+    <input type="text" id="zip" class="zip" value="33032">
+  </form>
+
+  <h3 class="header">Weather</h3>
+  <h4 class="weather" id="weather"></h4>
+  <img src="" alt="" id="icon">
+  <h3 class="header">Humidity</h3>
+  <h4 class="humidity" id="humidity" ></h4>
+  <h3 class="header">Pressure</h3>
+  <h4 class="pressure" id="pressure"></h4>
+  <h3 class="header">Temp</h3>
+  <div class="temp-container">
+    <h4 class="temp" id="temp"></h4> &deg;
+    <span id='changeTemp' class='changeTemp'>F</span>
+</div>
+
+
+
+
+ <!-- ctrl alt b for beautify -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- script:src TAB -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
